@@ -48,7 +48,7 @@ git clone https://github.com/FelixColbert/NFT-Market-Pro
 > Install npm dependencies using npm install
 
 ```shell
-cd kittos-nft-marketplace && npm install
+cd NFT-Market-Pro && npm install
 ```
 
 > Set up environment Variables I already Provided .env.example file.
