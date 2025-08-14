@@ -40,7 +40,7 @@ Now It will be available in GitHub Account.
 - Clone this repo with url
 
 ```shell
-git clone https://github.com/Aakrut/kittos-nft-marketplace
+git clone https://github.com/FelixColbert/NFT-Market-Pro
 ```
 
 ##### Setup
